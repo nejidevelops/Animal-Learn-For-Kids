@@ -20,11 +20,16 @@ body{
     justify-content: space-between;
 }
 
+header{
+    margin-left: 20px;
+}
+
 nav{
     position: relative;
     display: flex;
 }
 
-nav ul{
+nav ul li{
     display: inline-block;
+    margin-right: 120px;
 }
