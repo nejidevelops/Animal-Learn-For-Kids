@@ -25,6 +25,10 @@ nav{
     justify-content: space-between;
 }
 
+header{
+    margin-left: 30px;
+}
+
 header span{
     position: relative;
     font-size: 30px;
@@ -55,7 +59,8 @@ header span:nth-child(even){
         0 0 40px #03bcf4,
         0 0 80px #03bcf4,
         0 0 160px #03bcf4,
-        0 0 400px #03bcf4;    
+        0 0 400px #03bcf4,
+        0 0 600px #03bcf4;    
     }
 } 
 nav ul li{
@@ -118,7 +123,6 @@ nav ul li a:hover::after{
 }
 
 .moreland{
-    margin-top: 5%;
     text-align: center;
 }
 
@@ -126,8 +130,31 @@ nav ul li a:hover::after{
     box-shadow:  0 0 20px #CD9B1B;
 }
 
+.learn{
+    margin-top: 5%;
+    position: relative;
+}
+
+.learnnow{
+    position: relative;
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.learnnow::before{
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 5px;
+    left: 45px;
+    bottom: 3.75%;
+    transform: translate(-50%);
+    background: #CD9B1B;
+}
+
 .ourAnimals{
-    margin-top: 100px;
+    margin-top: 10px;
     margin-left: 50px;
 }
 
