@@ -125,3 +125,13 @@ nav ul li a:hover::after{
 .moreland h1{
     box-shadow:  0 0 20px #CD9B1B;
 }
+
+.ourAnimals{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.ourAnimals img{
+    width: 300px;
+    height: 300px;
+}
