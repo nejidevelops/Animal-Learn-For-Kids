@@ -32,18 +32,26 @@ nav{
 
 nav ul li{
     display: inline-block;
-    margin-right: 120px;
+    margin-right: 80px;
 }
 
 nav ul li a{
     color: black;
 }
-
-@media(max-width:1024px){
+/* 
+@media(min-width:1024px){
     body{
         background-color: blue;
     }
-}
+    .header{
+        display: flex;
+        flex-basis: 100%;
+        padding-left: 20px;
+    }
+    nav{
+        font-size: 15px;
+    }
+} */
 
 .maincontent{
     position: relative;
