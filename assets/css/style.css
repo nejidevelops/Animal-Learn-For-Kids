@@ -65,6 +65,24 @@ nav ul li{
 
 nav ul li a{
     color: black;
+    position: relative;
+}
+
+nav ul li a::after{
+    position: absolute;
+    content: '';
+    width: 20%;
+    height: 3px;
+    left: 30px;
+    bottom: -5.75%;
+    left: 50%;
+    transform: translate(-50%);
+    background: #0e3742;
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::after{
+    width: 50%;
 }
 /* 
 @media(min-width:1024px){
