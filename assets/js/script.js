@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 const animalPic = "http://localhost:3000/characters"
 
 function getOurAnimals(){
+    //put does a whole update and patch does a partial update
     fetch (animalPic)
     .then(res=>res.json())
     .then(data => data.forEach((newData) => {
