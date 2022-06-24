@@ -122,6 +122,11 @@ nav ul li a:hover::after{
     margin-right: 50px;
 }
 
+.maincontent .animalcont{
+    background: #CD9B1B;
+    width: auto;
+}
+
 .moreland{
     text-align: center;
 }
@@ -202,6 +207,7 @@ nav ul li a:hover::after{
 .ourAnimals .fairytale{
     margin-top: 50px;
     margin-left: 25px;
+    width: auto;
 }
 /* 
 .grades .grade a{
