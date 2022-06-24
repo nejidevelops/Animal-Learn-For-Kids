@@ -189,12 +189,19 @@ nav ul li a:hover::after{
     height: 550px;
     padding: 30px;
     font-size: 24px;
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 100px;
+    display: flex;
 }
 
 .ourAnimals img{
-    width: 300px;
+    width: 400px;
     height: 300px;
+}
+
+.ourAnimals .fairytale{
+    margin-top: 50px;
+    margin-left: 25px;
 }
 /* 
 .grades .grade a{

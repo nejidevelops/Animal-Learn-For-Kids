@@ -30,3 +30,4 @@ function ourAnimalNames(anime){
         animalImage.setAttribute('src', `${anime.image}`)
     })
 }
+
