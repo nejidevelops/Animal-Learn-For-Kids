@@ -332,9 +332,9 @@ nav ul li a:hover::after{
     padding-left: 60px;
 }
 
-.container{
+.contact-us .container{
 	position: relative;
-	width: 100%;
+	width: auto;
 	height: 100%;
 	display: flex;
 	justify-content: center;
@@ -342,7 +342,7 @@ nav ul li a:hover::after{
 	padding: 20px 100px;
 }
 
-.container:after{
+.contact-us .container:after{
 	content: '';
 	position: absolute;
 	width: 100%;
@@ -354,7 +354,7 @@ nav ul li a:hover::after{
 	filter: blur(50px);
 	z-index: -1;
 }
-.contact-box{
+.contact-us .contact-box{
 	max-width: 850px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -365,23 +365,23 @@ nav ul li a:hover::after{
 	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
 }
 
-.left{
+.contact-us .left{
 	background: url("../img/bg.jpg") no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
 
-.right{
+.contact-us .right{
 	padding: 25px 40px;
 }
 
-h2{
+.contact-us h2{
 	position: relative;
 	padding: 0 0 10px;
 	margin-bottom: 10px;
 }
 
-h2:after{
+.contact-us h2:after{
 	content: '';
     position: absolute;
     left: 50%;
@@ -390,10 +390,10 @@ h2:after{
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color: #2ecc71;
+    background-color: #CD9B1B;
 }
 
-.field{
+.contact-us .field{
 	width: 100%;
 	border: 2px solid rgba(0, 0, 0, 0);
 	outline: none;
@@ -404,18 +404,18 @@ h2:after{
 	transition: .3s;
 }
 
-.field:hover{
+.contact-us .field:hover{
 	background-color: rgba(0, 0, 0, 0.1);
 }
 
-textarea{
+.contact-us textarea{
 	min-height: 150px;
 }
 
-.btn{
+.contact-us .btn{
 	width: 100%;
 	padding: 0.5rem 1rem;
-	background-color: #2ecc71;
+	background-color: #CD9B1B;
 	color: #fff;
 	font-size: 1.1rem;
 	border: none;
@@ -424,20 +424,20 @@ textarea{
 	transition: .3s;
 }
 
-.btn:hover{
+.contact-us .btn:hover{
     background-color: #27ae60;
 }
 
-.field:focus{
+.contact-us .field:focus{
     border: 2px solid rgba(30,85,250,0.47);
     background-color: #fff;
 }
 
 @media screen and (max-width: 880px){
-	.contact-box{
+	.contact-us .contact-box{
 		grid-template-columns: 1fr;
 	}
-	.left{
+	.contact-us .left{
 		height: 200px;
 	}
 }
