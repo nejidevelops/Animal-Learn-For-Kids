@@ -21,6 +21,9 @@
 ## Design
 The link to my Figma design is https://www.figma.com/file/5IsF7Z9TCpDexX0xT6mAsU/ANIMALS-LEARN-FOR-KIDS?node-id=4%3A3
 
+## Blog Post
+Here is my blog link, read it and learn something new https://medium.com/@newtonombese1/hosting-a-local-api-online-4c8a7e0cbce0
+
 ## Features
 A user will be able to:
 1. See information about my learning web application for kids
