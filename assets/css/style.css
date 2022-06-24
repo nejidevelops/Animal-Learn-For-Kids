@@ -286,4 +286,25 @@ nav ul li a:hover::after{
     opacity: 1;
 } */
 
+.grades{
+    margin-top: -150px;
+}
 
+.grades .grade{
+    position: relative;
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.grades .grade::before{
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 5px;
+    left: 45px;
+    bottom: 3.75%;
+    transform: translate(-50%);
+    background: #CD9B1B;
+}
