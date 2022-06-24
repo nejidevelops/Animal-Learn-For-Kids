@@ -73,7 +73,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Authors Info
-Newton Ombese <https://github.com/NewtonOmbese>
+Newton Ombese 
+    Github:<https://github.com/NewtonOmbese>
+    LinkedIn:<https://www.linkedin.com/in/newton-ombese-570862210/>
  
 ## Note to note
 * Put does a whole update and Patch does a partial update
