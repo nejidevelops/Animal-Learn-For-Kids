@@ -140,6 +140,7 @@ nav ul li a:hover::after{
     margin-left: 40px;
     font-size: 30px;
     font-weight: 300;
+    margin-bottom: 30px;
 }
 
 .learnnow::before{
@@ -169,6 +170,21 @@ nav ul li a:hover::after{
     align-items: center;
 }
 
+.learn .animalsnames #animals span{
+    position: relative;
+    z-index: 1;
+    font-size: 2em;
+    color: #fff;
+    opacity:0.5;
+    text-transform:uppercase;
+    letter-spacing:4px;
+    transition: 0.5s;
+}
+
+.learn .animalsnames #animals span:hover{
+    opacity: 1;
+}
+
 .ourAnimals{
     height: 550px;
     padding: 30px;
@@ -180,3 +196,94 @@ nav ul li a:hover::after{
     width: 300px;
     height: 300px;
 }
+/* 
+.grades .grade a{
+    width: 50px;
+    display: inline-block;
+}
+
+.grades a{
+    position: relative;
+    padding: 20px 150px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    margin: 40px;
+    transition: 1s;
+    overflow: hidden;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0004);
+}
+
+@media only screen and (max-width:460px){
+    .grades a{
+        padding: 2px 4px;
+        background: rgba(234, 123,020,0.5);
+        margin: 10px;
+        display: inline-block;
+    }
+}
+
+.grades a:hover{
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr),
+    0 0 30px var(--clr),
+    0 0 60px var(--clr),
+    0 0 100px var(--clr); 
+}
+
+.grades a::before{
+    content: '';
+    position: absolute;
+    width:40px;
+    height: 400%;
+    background:var(--clr);
+    transition: 1s;
+    animation: animate 2s linear infinite;
+    animation-delay: calc(0.33s * var(--i));
+}
+
+.grades a:hover::before{
+    width:40px;
+}
+
+
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.grades a::after{
+    content: '';
+    position:absolute;
+    inset: 4px;
+    background: #0e1538;
+    transition: 0.5s;
+}
+
+.grades a:hover::after{
+    background:var(--clr);
+}
+
+.grades a span{
+    position: relative;
+    z-index: 1;
+    font-size: 2em;
+    color: #fff;
+    opacity:0.5;
+    text-transform:uppercase;
+    letter-spacing:4px;
+    transition: 0.5s;
+}
+
+.grades a:hover span{
+    opacity: 1;
+} */
+
+
