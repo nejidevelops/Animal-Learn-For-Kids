@@ -332,6 +332,10 @@ nav ul li a:hover::after{
     padding-left: 60px;
 }
 
+.contact-us{
+    margin-top: 50px;
+}
+
 .contact-us .container{
 	position: relative;
 	width: auto;
