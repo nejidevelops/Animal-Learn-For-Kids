@@ -321,3 +321,13 @@ nav ul li a:hover::after{
     transform: translate(-50%);
     background: #CD9B1B;
 }
+
+.grades .watoto{
+    display: flex;
+    width: auto;
+    margin-left: 40px;
+}
+
+.grades .watoto img{
+    padding-left: 60px;
+}
