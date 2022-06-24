@@ -31,3 +31,8 @@ function ourAnimalNames(anime){
     })
 }
 
+document.getElementById("formYetu").addEventListener("submit", function(e){
+    if(!isValid){
+        e.preventDefault();
+    }
+});
