@@ -2,16 +2,18 @@ document.addEventListener('DOMContentLoaded',()=>{
     getOurAnimals()
 })
 
-const animalPic = "http://localhost:3000/characters"
+const animalPic = "https://newtonombese.github.io/animal-kingdom-api/animals.json"
 
 function getOurAnimals(){
-    //put does a whole update and patch does a partial update
     fetch (animalPic)
     .then(res=>res.json())
-    .then(data => data.forEach((newData) => {
-        console.log(newData.name)
-        ourAnimalNames(newData)
-    }))
+    .then(data=>{
+        console.log(data.characters)
+        let ourCharacters = data.characters
+        ourCharacters.forEach(animal=>{
+            ourAnimalNames(animal)
+        })
+    })
 }
 
 function ourAnimalNames(anime){

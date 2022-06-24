@@ -154,22 +154,25 @@ nav ul li a:hover::after{
 }
 
 .learn .animalsnames #animals{
-    /* margin-top: 20px; */
     height: 15vh;
-    background: rgb(49, 109, 179);
+    background: #CD9B1B;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 3vh;
+    padding: 3vh 0;
+}
+
+.learn .animalsnames #animals span{
+    border: 1px solid black;
+    padding: 20px;
+    background: gray;
+    align-items: center;
 }
 
 .ourAnimals{
-    /* margin-top: 10px;
-    margin-left: 50px; */
     height: 550px;
     padding: 30px;
     font-size: 24px;
-    border: dotted;
     text-align: center;
 }
 
